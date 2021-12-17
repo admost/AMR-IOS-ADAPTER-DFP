@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRAdapterDFP'
-  s.version          = '8.12.0.0'
+  s.version          = '8.13.0.0'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 														Copyright 2016
 														Admost Mediation Limited.
@@ -19,6 +19,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'armv7 arm64 x86_64' }
   s.vendored_libraries = 'AMRAdapterDFP/Libs/libAMRAdapterDFP.a'
-  s.dependency 'AMRSDK', '~> 1.4.70'
-  s.dependency 'Google-Mobile-Ads-SDK', '8.12.0.0'
+  s.dependency 'AMRSDK', '~> 1.5.0'
+  s.dependency 'Google-Mobile-Ads-SDK', '8.13.0.0'
 end
