@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRAdapterDFP'
-  s.version          = '10.9.0.0'
+  s.version          = '10.14.0.0'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 														Copyright 2016
 														Admost Mediation Limited.
@@ -25,6 +25,6 @@ Pod::Spec.new do |s|
     'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64'
   }
   s.vendored_frameworks = 'AMRAdapterDFP/Libs/AMRAdapterDFP.xcframework'
-  s.dependency 'AMRSDK', '~> 1.5.33'
-  s.dependency 'Google-Mobile-Ads-SDK', '10.9.0.0'
+  s.dependency 'AMRSDK', '~> 1.5.42'
+  s.dependency 'Google-Mobile-Ads-SDK', '10.14.0'
 end
